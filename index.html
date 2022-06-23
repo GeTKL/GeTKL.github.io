@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "URF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href = "image/logo.png">
+        <title>Онлайн - лагерь</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="logo">
+                <img src = "image/logo_main.png">
+            </div>
+            <div class="menu">
+                <ul class = "menu_ul">
+                    <li class = "menu_li"><a href="#hlag">Главное</a></li>
+                    <li class = "menu_li"><a href="#hrasp">Расписание</a></li>
+                    <li class = "menu_li"><a href="#hprog">Курсы</a></li>
+                    <li class = "menu_li"><a href="#hreg">Регистрация</a></li>
+                    <li class = "menu_li"><a href="#hcont">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="menu_novis">
+                <img src = "image/menu.png" class = "but" width="100px">
+                <div class="menu2">
+                    <ul class = "menu_ul2">
+                        <li class = "menu_li2"><a href="#hlag">Главное</a></li>
+                        <li class = "menu_li2"><a href="#hrasp">Расписание</a></li>
+                        <li class = "menu_li2"><a href="#hprog">Курсы</a></li>
+                        <li class = "menu_li2"><a href="#hreg">Регистрация</a></li>
+                        <li class = "menu_li2"><a href="#hcont">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class = "main">
+            <div class="lag">
+                <h2 id = "hlag"> Как проходит лагерь </h2>
+                <div class="flex">
+                <div class="w1">
+                    <div class = "photo1"><img src = "image/sand_wat.png" width="30%"></div>
+                    <div class="the">8 дней</div>
+                    <div class="t">Каждый день дети будут продолжать создавать свой проект, а также получат отдых во время занятий.</div>
+                </div>
+                <div class="w2">
+                    <div class = "photo1"><img src = "image/lamp.png" width="29%"></div>
+                    <div class="the">Диплом</div>
+                    <div class="t">По итогам лагеря участники получат диплом вместе с портфолио, которое формируют каждый день.</div>
+                </div>
+                <div class="w3">
+                    <div class = "photo1"><img src = "image/pc.png" width="30%"></div>
+                    <div class="the">Разработка</div>
+                    <div class="t">Работа проводится в дистанционном формате и позволяет работать всем участникам лагеря вместе, создавая совместные продукты.</div>
+                </div>
+                </div>
+            </div>
+            <div class="rasp">
+                <h2 id = "hrasp"> Расписание дня </h2>
+                <div class="table">
+                    <div class="left-wrap">
+                        10:00 - 11:00
+                    </div>
+                    <div class="r-wrap">
+                    <div class="line">
+                        <div class="circle"></div>
+                        <div class="line2"></div>
+                    </div>
+                    <div class="right-wrap">
+                        Творческая зарядка
+                    </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="left-wrap">
+                        11:00 - 11:30
+                    </div>
+                    <div class="r-wrap">
+                    <div class="line">
+                        <div class="circle"></div>
+                        <div class="line2"></div>
+                    </div>
+                    <div class="right-wrap">
+                        Мастер - класс
+                    </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="left-wrap">
+                        11:30 - 13:00
+                    </div>
+                    <div class="r-wrap">
+                    <div class="line">
+                        <div class="circle"></div>
+                        <div class="line2"></div>
+                    </div>
+                    <div class="right-wrap">
+                        Работа в группе по теме дня
+                    </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="left-wrap">
+                        13:00 - 14:00
+                    </div>
+                    <div class="r-wrap">
+                    <div class="line">
+                        <div class="circle"></div>
+                        <div class="line2"></div>
+                    </div>
+                    <div class="right-wrap">
+                        Перерыв
+                    </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="left-wrap">
+                        14:00 - 16:00
+                    </div>
+                    <div class="r-wrap">
+                    <div class="line">
+                        <div class="circle"></div>
+                        <div class="line2"></div>
+                    </div>
+                    <div class="right-wrap">
+                        Выполнение домашнего задания
+                    </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="left-wrap">
+                        16:00 - 17:00
+                    </div>
+                    <div class="r-wrap">
+                    <div class="line">
+                        <div class="circle"></div>
+                        <div class="line2"></div>
+                    </div>
+                    <div class="right-wrap">
+                        Перерыв
+                    </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <div class="left-wrap">
+                        17:00 - 18:00
+                    </div>
+                    <div class="r-wrap">
+                    <div class="line">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="right-wrap">
+                        Мастер - класс
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prog">
+                <h2 id = "hprog"> Наши программы </h2>
+                <div class="slider">
+                    <div class="leftswipe">
+                        <button class = "click1" onclick="previous()"> &lt;</button>
+                    </div>
+                <div class="prog1" style = "background-image: url(image/mine_back.jpg);"">
+                    <div class="prog_descr">
+                        Программа №1
+                    </div>
+                    <div class="prog_price">
+                        Программирование в Minecraft на Python
+                        <ul class="prod">
+                            <li class="prodli">— Увлекательное изучение</li>
+                            <li class="prodli">— Интерактивное погружение</li>
+                            <li class="prodli">— Обучение в современных условиях</li>
+                        </ul> 
+                    </div>
+                    <div class="bt2">
+                        <a href = "#hreg">
+                        <button class = "btreg2" >
+                            Записаться
+                        </button></a>
+                    </div>
+                </div>
+
+                <div class="prog1" style = "background-image: url(image/unity.png);">
+
+                    <div class="prog_descr">
+                        Программа №2
+                    </div>
+                    <div class="prog_price">
+                        Создание игр в Unity 3D и Roblox Studio
+                        <ul class="prod">
+                            <li class="prodli">— Создание простых игр</li>
+                            <li class="prodli">— Быстрое обучение</li>
+                            <li class="prodli">— Развитие творческих способностей</li>
+                        </ul> 
+                        <p class = "prod2">Мы предлагаем вам развитие творчества  ребенка при помощи простых приложений для создания игр</p>
+                    </div>
+                    <div class="bt3">
+                        <a href = "#hreg">
+                        <button class = "btreg2">
+                            Записаться
+                        </button></a>
+                    </div>
+                </div>
+
+                <div class="prog1" style = "background-image: url(image/tilda.jpg);">
+                    <div class="prog_descr">
+                        Программа №3
+                    </div>
+                    <div class="prog_price">
+                        Создание сайтов в Tilda
+                        <ul class="prod3">
+                            <li class="prodli">— Легко и просто</li>
+                            <li class="prodli">— Удобный интерфейс и дизайн</li>
+                        </ul> 
+                    </div>
+                    <div class="bt4">
+                        <a href = "#hreg">
+                        <button class = "btreg2" >
+                        Записаться
+                        </button></a>
+                    </div>
+                </div>
+
+                <div class="rightswipe">
+                    <button class = "click2" onclick="next()">&gt;</button>
+                </div>
+                </div>
+                <div class="slider-dots">
+                    <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+            <div class="reg">
+                <h2 id = "hreg"> Регистрация </h2>
+                <div class="wrap">
+                <div class="leftwrap">
+                    <div class="pricetext">
+                        Стоимость обучения
+                    </div>
+                    <p class="text2"> Стоимость программы обучения</p>
+                    <div class="price">
+                        8500 ₽
+                    </div>
+                    <div class="sale">
+                        Скидка
+                    </div>
+                    <ul class = "sales">
+                        <li class = "li_sales">Для многодетных семей</li>
+                        <li class = "li_sales">Для льготников</li>
+                        <li class = "li_sales">Для тех кто использовал промокод</li>
+                    </ul>
+                    <p class="text3"> Не пропустите возможность сэкономить.</p>
+                </div>
+                <div class="rightwrap">
+                    <div class="ht">
+                        Открыт набор в летний онлайн-лагерь 2022
+                    </div>
+                    <div class="input">
+                        <input class = "inp" placeholder="Ваше имя">
+                    </div>
+                    <div class="input">
+                        <input class = "inp" placeholder="Ваш телефон">
+                    </div>
+                    <div class="input">
+                        <input class = "inp" placeholder="Ваш E-mail">
+                    </div>
+                    <div class="bt">
+                    <button class = "btreg" onclick = "alert('Вы успешно записаны!')"> Записаться </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="cont">
+                <h2 id = "hcont"> Контакты </h2>
+                <div class="cont2">
+                    <div class="vopr">
+                        <p class = "heaaad"> Вопросы </h2>
+                            <div class="cont2">
+                                <ul class="contacts">
+                                    <li class="contacts_li">Миронова <br>Ольга Андреевна</li>
+                                    <li class="contacts_li">+7 910 456-53-21</li>
+                                    <li class="contacts_li"><a href = "mailto:Veiron@mail.ru"> Veiron@mail.ru</a></li>
+                                </ul>
+                                <div class="photo2">
+                                    <img src = "image/vopr.png" width="190px">
+                                </div>
+                            </div>
+                    </div>
+                    <div class="vopr">
+                        <p class = "heaaad"> Предложения </h2>
+                            <div class="cont2">
+                                <ul class="contacts">
+                                    <li class="contacts_li">Суриков <br>Иван Андреевич</li>
+                                    <li class="contacts_li">+7 916 212-71-51</li>
+                                    <li class="contacts_li"><a href = "mailto:Surikov@mail.ru"> Surikov@mail.ru</a></li>
+                                </ul>
+                                <div class="photo2">
+                                    <img src = "image/pred.png" width="190px">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_logo">
+                    <img src = "image/logo.png">
+                </div>
+                <div class="footer_u">
+                    <ul class = "footer_ul">
+                        <li class = "footer_li">+79104565486</li>
+                        <li class = "footer_li"><a href ="mailto:Artem-klevtsov@mail.ru">Artem-klevtsov@mail.ru</a></li>
+                    </ul>
+                </div>
+                <div class="footer_u2">
+                    <ul class="footer_ul2">
+                        <li class = "footer_li2"><a href="https://www.youtube.com/channel/UCpX-X_PjWWTJrWcZTv_35RA"><img src = "image/YouTube.png" width = "50px" style = "margin-right: -10px"></a></li>
+                        <li class = "footer_li2"><a href="https://t.me/Areudam_GeT"><img src = "image/telegram.png" width="90px" style = "margin-right: -15px"></a></li>
+                        <li class = "footer_li2"><a href="https://vk.com/a_klevtsov"><img src = "image/vk.png" width="60px" style = "margin-top: -5px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "script.js"></script>
+</html>
